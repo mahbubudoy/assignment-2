@@ -196,7 +196,17 @@ body{
    position: relative;
    width: 286px;
    transform: translate(370px,-130px);
+   animation: udoy 11s linear infinite;
 
+}
+@keyframes udoy {
+   0%{ 
+      transform: translate(370px,-130px) rotate(0deg);
+   }
+   100%{
+       transform: translate(370px,-130px) rotate(360deg);
+   }
+   
 }
 /* Plant Lover Responsive */
 
