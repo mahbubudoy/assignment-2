@@ -102,3 +102,76 @@ body{
      .hero-image{
         width: 375px;
      }
+ }
+ /* Design Card Section */
+ .card-01-title{
+    font-size: 3.12rem;
+    font-weight:bold ;
+ }
+ .card-01-description{
+    font-size: 1.37rem;
+ }
+ .name{
+    font-size: 22px;
+    font-weight: 500px;
+    margin-top: 30px;
+    margin-bottom: 0;
+ }
+ .price{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 30px;
+ }
+ .card-01-button{
+    background-color: #E95A08;
+    border: none;
+    width: 270px;
+    height: 50px;
+    transition: background-color 0.3s ease-in , font-size 0.3s linear 0.1s;
+ }
+ .card-01-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-top: 50px;
+ }
+ .card-01-full-container{
+    margin-top: 120px;
+    text-align: center;
+ }
+ /* Card-01 Responsive */
+
+@media screen and (max-width:576px) {
+    .card-01-container{
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+    }
+    .card-01-title{
+        font-size: 24px;
+    }
+    .card-01-description{
+        font-size: 14px;
+    }
+    .card-01-image{
+        width: 170px;
+    }
+    .name{
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .price{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .card-01-button{
+    width: 170px;
+    height: 50px;
+ }
+ .card-01-container{
+    margin-top: 25px;
+ }
+ .card-01-full-container{
+    margin-top: 65px;
+ }
+}
