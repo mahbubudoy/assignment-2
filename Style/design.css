@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Font Style */
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Colors */
+ .dark-01{
+    color: #000000;
+ }
+ .dark-02{
+    color: #252432;
+ }
+.dark-03{
+    color: #8987A1;
+}
+/* Full Body */
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Display Flex */
+ .d-flex{
+    display: flex;
+ }
+ /* Design Navbar section */
+ nav img{
+    width: 8.43rem;
+    height: 5.12rem;
+ }
+ nav li{
+    list-style: none;
+ }
+ nav a{
+      text-decoration: none;
+      transition: font-size 0.3s linear 0.01s, color 0.3s ease-in;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.9rem;
+ }
+ nav ul{
+    display: flex;
+    gap: 2.82rem;
+ }
+ nav ul div{
+    display: flex;
+    gap: 0.625px;
+ }
+ /* Navbar responsive */
+ @media screen and (max-width:576px) {
+    .hide{
+        display: none;
+    }
+    body{
+      max-width: 526px;
+      margin: 0 25px;
+   }
+ }
+
+/* Design Banner Section */
+ .banner-title{
+    font-size: 4.06rem;
+    font-weight: bold;
+ }
+ .banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.37rem;
+ }
+ .banner-container{
+    margin-top: 7.5rem;
+ }
+ /* Banner Responsive */
+  @media screen and (max-width:576px) {
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+    .banner-title{
+        font-size: 34px;
+        font-weight: bold;
+    }
+     .banner-description{
+        font-size: 15px;
+     }
+     .hero-image{
+        width: 375px;
+     }
