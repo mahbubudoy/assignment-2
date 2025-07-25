@@ -175,3 +175,153 @@ body{
     margin-top: 65px;
  }
 }
+/* Design Plant Lover Section */
+.plant-lover-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.plant-lover-list{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.plant-lover-container{
+    gap: 350px;
+    margin-top: 200px;
+    display: flex;
+}
+.plant-lover-image{
+    position: absolute;
+}
+.trusted-icon{
+   position: relative;
+   width: 286px;
+   transform: translate(370px,-130px);
+
+}
+/* Plant Lover Responsive */
+
+@media screen and (max-width:576px){
+    .plant-lover-container{
+      flex-direction: column;
+      margin-top: 45px;
+    }
+    .plant-lover-image{
+      width: 360px;
+    }
+    .trusted-icon{
+      display: none;
+    }
+    .plant-lover-text-container{
+      margin-top: 80px;
+    }
+    .plant-lover-title{
+      font-size: 24px;
+    }
+   .plant-lover-list{
+      font-size: 12px;
+   }
+}
+/* Design Latest Deals Section */
+.latest-deals-title{
+   font-size: 50px;
+   font-weight: bold;
+}
+.latest-deals-description{
+   font-size: 22px;
+}
+.latest-deals-pic-01{
+   background-image: linear-gradient(#0000007e,#0000007e), url('../assets/deal-bloom.png');
+   background-repeat: no-repeat;
+   height: 135px;
+   width: 365px;
+   border: none;
+   border-radius: 14px;
+   text-align: center;
+   padding-top: 60px;
+}
+.latest-deals-pic-02{
+   background-image: linear-gradient(#0000007e,#0000007e), url('../assets/deal-ana.png');
+   background-repeat: no-repeat;
+   height: 135px;
+   width: 365px;
+   border: none;
+   border-radius: 14px;
+   text-align: center;
+   padding-top: 60px;
+}
+.pic-01-02{
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+.latest-deals-pic-03{
+   background-image: linear-gradient(#0000007e,#0000007e), url('../assets/deal-zabo.png');
+   background-repeat: no-repeat;
+   height: 295px;
+   width: 750px;
+   border: none;
+   border-radius: 14px;
+   text-align: center;
+   padding-top: 125px;
+}
+.pic-title{
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 0;
+}
+.pic-a{
+   color: white;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.pic-title-03{
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 0;
+}
+.pic-a-03{
+   color: white;
+   font-size: 28px;
+   font-weight: 500;
+}
+.latest-deals-pic-container{
+   display: flex;
+   gap: 30px;
+   margin-top: 120px;
+}
+
+/* Latest Deals Responsive */
+
+@media screen and (max-width:576px){
+   .latest-deals-title{
+      font-size: 24px;
+   }
+   .latest-deals-description{
+      font-size: 14px;
+   }
+   .latest-deals-pic-container{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+   }
+   .latest-deals-pic-03{
+   height: 135px;
+   width: 365px;
+   padding-top: 60px;
+   }
+   .pic-title-03{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 0;
+   }
+   .pic-a-03{
+   font-size: 16px;
+   font-weight: 500;
+   }
+}
+
+/* Design Colorful Bunch Section */
+
