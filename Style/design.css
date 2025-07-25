@@ -325,3 +325,119 @@ body{
 
 /* Design Colorful Bunch Section */
 
+.colorful-bunch-container{
+   background-image: url('../assets/news-letter-bg.png');
+   background-repeat: no-repeat;
+   width: 1440px;
+   height: 435px;
+   text-align: center;
+   padding-top:150px ;
+   margin-left: -150px;
+   margin-top: 120px;
+}
+.colorful-bunch-title{
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
+}
+.email{
+   width: 640px;
+   height: 48px; 
+   border: none;
+}
+.subscribe{
+   width: 186px;
+   height: 50px; 
+   background-color: #E95A08;
+   border: none;
+   color: white;
+   margin-left: -5px;
+}
+
+/* Colorful Bunch Responsive */
+
+@media screen and (max-width:576px){
+   .colorful-bunch-container{
+   background-size: cover;
+   width: 410px;
+   height: 160px;
+   padding-top:40px ;
+   margin-top: 50px;
+   margin-left: -30px;
+   }
+   .colorful-bunch-title{
+   font-size: 17px;
+   }
+   .email{
+   width: 205px;
+   }
+   .subscribe{
+   width: 90px;
+   }
+}
+
+/* Design Footer Section */
+
+.footer-button-01 ul li{
+   list-style: none;
+}
+.footer-button-01 ul a{
+   text-decoration: none;
+   color:rgba(0, 0, 0, 0.5)
+}
+.footer-button-02 ul li{
+   list-style: none;
+}
+.footer-button-02 ul a{
+   text-decoration: none;
+   color:rgba(0, 0, 0, 0.5)
+}
+.footer-list-01{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.footer-list-02{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+footer{
+   display: flex;
+   justify-content: space-around;
+   gap: 80px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+.footer-links{
+   display: flex;
+   gap: 20px;
+}
+
+/* Footer Responsive */
+
+@media screen and (max-width:576px){
+   footer{
+      flex-direction: column;
+      margin-top: 40px;
+   }
+   .footer-button-01{
+      margin-top: -90px;
+   }
+   .footer-button-02{
+      margin-top: -90px;
+   }
+   .footer-links{
+      margin-top: -50px;
+   }
+}
+
+/* Let Play With Hover */
+nav ul li a:hover{
+   font-size: 20px ;
+   color: #E95A08;
+}
+.card-01-button:hover{
+   background-color: #000000;
+   font-size: 15px;
+}
